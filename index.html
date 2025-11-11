@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qazi Mohammad Mahran - Civil Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js" defer></script>
+    <script src="components/footer.js" defer></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#0e7490',
+                        accent: '#0369a1'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-gray-100 text-gray-800 font-sans transition-colors duration-500">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12 max-w-6xl">
+        <!-- Home Section with enhanced background -->
+        <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://static.photos/construction/1200x630/5')] bg-cover bg-center opacity-20"></div>
+            <div class="text-center relative z-10 transform transition-all duration-700 hover:scale-105">
+                <div class="relative inline-block mb-6">
+                    <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/WhatsApp%20Image%202025-11-10%20at%2021.29.15.jpeg" alt="Profile" class="w-64 h-64 rounded-full mx-auto object-cover border-4 border-primary shadow-2xl transition-all duration-500 hover:rotate-6 hover:border-accent" style="object-position: 50% 40%">
+<div class="absolute inset-0 rounded-full border-4 border-transparent animate-ping opacity-0 hover:opacity-100 transition-opacity duration-700"></div>
+                </div>
+                <h1 class="text-5xl font-bold text-primary mb-4 animate-fade-in">QAZI MOHAMMAD MAHRAN</h1>
+<h2 class="text-2xl text-gray-600 mb-8 animate-fade-in">Civil Engineer (B.Tech Candidate)</h2>
+                <p class="text-lg max-w-2xl mx-auto mb-8 animate-fade-in">Motivated and detail-oriented professional with a <strong class="text-primary">strong foundation in constructional practices, structural design, and environmental systems</strong>, committed to continuous learning and effective collaboration.</p>
+                <div class="flex justify-center gap-4 animate-fade-in">
+                    <a href="#contact" class="bg-primary hover:bg-accent text-white px-6 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1">Contact Me</a>
+                    <a href="#projects" class="border-2 border-primary text-primary hover:bg-blue-50 px-6 py-3 rounded-lg transition-all duration-300 hover:border-accent hover:text-accent transform hover:-translate-y-1">View Experience</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section with animated cards -->
+        <section id="about" class="py-20">
+            <h2 class="text-4xl font-extrabold text-center text-primary mb-12 relative">
+                <span class="relative inline-block">
+                    About Me
+                    <span class="absolute bottom-0 left-0 w-full h-1 bg-secondary transform scale-x-0 origin-left group-hover:scale-x-100 transition-transform duration-500"></span>
+                </span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="transform transition duration-500 hover:scale-105">
+                    <div class="relative overflow-hidden rounded-xl shadow-2xl">
+                        <img src="http://static.photos/construction/640x360/2" alt="About" class="w-full rounded-xl transition duration-700 hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-gray-700">Dedicated to Structural and Environmental Practices</h3>
+                    <p class="mb-4 text-gray-600">Motivated and detail-oriented professional with a strong foundation in constructional practices, structural design, and environmental systems. This summary is kept as per the resume.</p>
+                    <p class="mb-4 text-gray-600">Equipped with hands-on experience from internships and proficient in key engineering software tools. Committed to continuous learning and effective collaboration in multidisciplinary teams.</p>
+                    <div class="grid grid-cols-2 gap-4 mt-6">
+                        <div class="flex items-center p-3 bg-blue-50 rounded-lg shadow-sm transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                            <i data-feather="briefcase" class="text-primary mr-2"></i>
+                            <span class="font-medium">2 Professional Internships</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-blue-50 rounded-lg shadow-sm transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                            <i data-feather="code" class="text-primary mr-2"></i>
+                            <span class="font-medium">Proficient in Revit, AutoCAD, SAP2000</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-blue-50 rounded-lg shadow-sm transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                            <i data-feather="tool" class="text-primary mr-2"></i>
+                            <span class="font-medium">Experience with Raft Foundation & QC</span>
+                        </div>
+                        <div class="flex items-center p-3 bg-blue-50 rounded-lg shadow-sm transform transition duration-300 hover:-translate-y-1 hover:shadow-md">
+                            <i data-feather="book-open" class="text-primary mr-2"></i>
+                            <span class="font-medium">B.Tech Civil Engineering Candidate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section with enhanced timeline -->
+        <section id="experience" class="py-20 bg-gradient-to-r from-gray-100 to-gray-50 rounded-2xl shadow-xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center text-primary mb-12">Professional Internships & Experience</h2>
+                
+                <div class="relative max-w-4xl mx-auto">
+                    <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary to-secondary hidden md:block animate-pulse"></div>
+                    
+                    <div class="mb-10 flex justify-end">
+                        <div class="md:w-1/2 md:pr-10 relative">
+                            <div class="absolute w-6 h-6 rounded-full bg-primary border-4 border-gray-100 -right-3 top-4 hidden md:block animate-pulse"></div>
+                            <div class="bg-white p-6 rounded-xl shadow-xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 hover:border-l-4 hover:border-primary">
+                                <div class="flex justify-between items-start mb-2">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Internship | Site Experience</h3>
+                                        <p class="text-primary">High Court Construction</p>
+                                    </div>
+                                    <span class="bg-blue-100 text-primary px-3 py-1 rounded-full text-sm font-semibold">Jan 2025 - Feb 2025</span>
+                                </div>
+                                <ul class="mt-4 space-y-2 list-disc pl-5 text-gray-600">
+                                    <li>Gained practical knowledge of structural elements including Beams, Columns, and Foundation.</li>
+                                    <li>Assisted in <strong class="text-primary">Raft Foundation</strong> work and reinforcement details.</li>
+                                    <li>Observed and understood various site testing procedures and <strong class="text-primary">quality control checks</strong>.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-10 flex justify-start">
+                        <div class="md:w-1/2 md:pl-10 relative">
+                            <div class="absolute w-6 h-6 rounded-full bg-primary border-4 border-gray-100 -left-3 top-4 hidden md:block animate-pulse"></div>
+                            <div class="bg-white p-6 rounded-xl shadow-xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-1 hover:border-r-4 hover:border-primary">
+                                <div class="flex justify-between items-start mb-2">
+                                    <div>
+                                        <h3 class="text-xl font-bold">Internship | Environmental Systems</h3>
+                                        <p class="text-primary">Water Treatment Process</p>
+                                    </div>
+                                    <span class="bg-blue-100 text-primary px-3 py-1 rounded-full text-sm font-semibold">Jan 2024 - Feb 2024</span>
+                                </div>
+                                <ul class="mt-4 space-y-2 list-disc pl-5 text-gray-600">
+                                    <li>Learned about different processes involved in water treatment.</li>
+                                    <li>Studied <strong class="text-primary">Flocculation with alum</strong> and the <strong class="text-primary">Backwashing process</strong> in detail.</li>
+                                    <li>Participated in the construction and inspection of a water reservoir.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-secondary border-4 border-gray-100 bottom-0 hidden md:block animate-pulse"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section with animated cards -->
+        <section id="skills" class="py-20">
+            <h2 class="text-4xl font-extrabold text-center text-primary mb-12">Skills & Expertise</h2>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-xl border-t-4 border-primary transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:border-accent">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4 transform transition duration-500 hover:rotate-12">
+                            <i data-feather="terminal" class="text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-700">Technical Software</h3>
+                    </div>
+                    <ul class="space-y-4 text-gray-700">
+                        <li>
+                            <p class="font-semibold text-primary">Revit (BIM)</p>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Skilled in creating accurate <strong>3D models</strong> using Revit's BIM Workflow.</li>
+                                <li>Preparing detailed construction drawings (Plans, Elevations, Sections).</li>
+                                <li>Good knowledge of Visualization and Rendering Tools like <strong>Enscape, Lumion 3D</strong>.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="font-semibold text-primary">AutoCAD (2D Drafting)</p>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Expert in Creating precise <strong>2D drawings</strong>, familiar with <strong>BIS, IS codes</strong>.</li>
+                                <li>Strong command over <strong>OSNAP, POLAR, and UCS</strong> tools.</li>
+                                <li>Good Knowledge of Layer Management and Annotation.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="font-semibold text-primary">SAP2000 (Structural Analysis)</p>
+                            <ul class="list-disc pl-5 text-sm space-y-1">
+                                <li>Skilled in creating <strong>2D/3D structural models</strong> and applying various loads (wind, seismic).</li>
+                                <li>Proficient in interpreting <strong>bending moments, shear forces, axial forces</strong> etc.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-xl border-t-4 border-primary transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:border-accent">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4 transform transition duration-500 hover:rotate-12">
+                            <i data-feather="cpu" class="text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-700">Engineering Focus</h3>
+                    </div>
+                    <ul class="space-y-3 list-disc pl-5 text-gray-700">
+                        <li><strong>Structural Analysis:</strong> Skilled in interpreting analysis results from software.</li>
+                        <li><strong>Construction Practices:</strong> Practical experience with Beams, Columns, Foundation, and reinforcement details (<strong>Raft Foundation</strong>).</li>
+                        <li><strong>Quality Control:</strong> Observed various site testing procedures and quality checks.</li>
+                        <li><strong>Environmental Systems:</strong> Knowledge of Water Treatment Processes (Flocculation, Backwashing).</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-xl border-t-4 border-primary transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 hover:border-accent">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-100 p-3 rounded-lg mr-4 transform transition duration-500 hover:rotate-12">
+                            <i data-feather="users" class="text-primary"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-700">Key Professional Skills</h3>
+                    </div>
+                    <ul class="space-y-3 list-disc pl-5 text-gray-700">
+                        <li>Excellent written and oral communication skills.</li>
+                        <li>Strong analytical and problem-solving skills.</li>
+                        <li>Ability to work effectively in a team environment (<strong>Quick learner</strong>).</li>
+                        <li>Languages: English, Urdu, Kashmiri.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section with enhanced cards -->
+        <section id="education" class="py-20 bg-gradient-to-r from-gray-100 to-gray-50 rounded-2xl shadow-xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center text-primary mb-12">Education</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="transform transition duration-500 hover:scale-105">
+                        <div class="bg-white p-6 rounded-xl shadow-xl border-l-4 border-primary hover:border-accent transition-all duration-300">
+                            <div class="flex justify-between items-start mb-2">
+                                <div>
+                                    <h4 class="text-xl font-bold">B.Tech Civil Engineering</h4>
+                                    <p class="text-primary">University of Kashmir</p>
+                                </div>
+                                <span class="bg-blue-100 text-primary px-3 py-1 rounded-full text-sm font-semibold">2022 - Present</span>
+                            </div>
+                            <p class="text-gray-600">Focus on foundational civil engineering principles, structural design, and environmental engineering systems.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="transform transition duration-500 hover:scale-105">
+                        <div class="bg-white p-6 rounded-xl shadow-xl border-l-4 border-primary hover:border-accent transition-all duration-300">
+                            <div class="flex justify-between items-start mb-2">
+                                <div>
+                                    <h4 class="text-xl font-bold">12th Grade / Pre-Engineering Stream</h4>
+                                    <p class="text-primary">Green Valley Educational Institute, Srinagar</p>
+                                </div>
+                                <span class="bg-blue-100 text-primary px-3 py-1 rounded-full text-sm font-semibold">2020 - 2021</span>
+                            </div>
+                            <p class="text-gray-600">Achieved a strong academic performance of <strong class="text-primary">89%</strong>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Work Section -->
+        <section id="portfolio" class="py-20 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl shadow-xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center text-primary mb-12">Portfolio Work</h2>
+                
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Revit Work 1 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                        <div class="relative overflow-hidden h-64">
+                            <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/REPLACE_WITH_REVIT_IMAGE_1.jpg" alt="Revit Project 1" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-700 mb-2">Residential Building Design</h3>
+                            <p class="text-primary mb-3">Revit BIM Model</p>
+                            <p class="text-gray-600 text-sm">Complete 3D model showing architectural elements, structural components, and MEP systems integration. Includes detailed floor plans, elevations, and sections.</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Revit</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">BIM</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">3D Modeling</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Revit Work 2 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                        <div class="relative overflow-hidden h-64">
+                            <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/3D%201st%20Project%2012.jpg" alt="Revit Project 2" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-700 mb-2">Commercial Complex</h3>
+                            <p class="text-primary mb-3">Revit Structural Model</p>
+                            <p class="text-gray-600 text-sm">Detailed structural model showing beam-column connections, foundation details, and reinforcement placement. Includes material takeoffs and construction documentation.</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Structural</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Revit</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Construction Docs</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Revit Work 3 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                        <div class="relative overflow-hidden h-64">
+                            <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/Enscape_2025-06-04-21-57-38.png" alt="Revit Project 3" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-700 mb-2">Architectural Visualization</h3>
+                            <p class="text-primary mb-3">Revit + Enscape Render</p>
+                            <p class="text-gray-600 text-sm">High-quality photorealistic rendering showing material finishes, lighting effects, and environmental context. Created using Revit model and Enscape real-time rendering.</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Rendering</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Enscape</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AutoCAD Work 1 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                        <div class="relative overflow-hidden h-64">
+                            <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/REPLACE_WITH_AUTOCAD_IMAGE_2.png" alt="AutoCAD Project 1" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-700 mb-2">Structural Drafting</h3>
+                            <p class="text-primary mb-3">AutoCAD 2D Drawings</p>
+                            <p class="text-gray-600 text-sm">Precise structural drawings showing reinforcement details, foundation plans, and section views. Created following BIS and IS codes with proper dimensioning.</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">AutoCAD</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">2D Drafting</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Structural</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SAP2000 Work -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                        <div class="relative overflow-hidden h-64">
+                            <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/REPLACE_WITH_SAP2000_IMAGE_3.jpg" alt="SAP2000 Project" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-700 mb-2">Structural Analysis</h3>
+                            <p class="text-primary mb-3">SAP2000 Model</p>
+                            <p class="text-gray-600 text-sm">Complete structural analysis showing member forces, deformation patterns, and stress distribution. Includes seismic and wind load analysis with proper code compliance.</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">SAP2000</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Analysis</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Structural</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AutoCAD Work 2 -->
+                    <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                        <div class="relative overflow-hidden h-64">
+                            <img src="https://huggingface.co/spaces/lionhearted121/concrete-dreams-digital-beams/resolve/main/images/INTERIOR.png" alt="AutoCAD Project 2" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-700 mb-2">Architectural Plans</h3>
+                            <p class="text-primary mb-3">AutoCAD Floor Plans</p>
+                            <p class="text-gray-600 text-sm">Detailed architectural drawings showing room layouts, furniture placement, and circulation patterns. Includes proper annotation and layer management.</p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">AutoCAD</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Architectural</span>
+                                <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs">Floor Plans</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section with enhanced cards -->
+        <section id="projects" class="py-20">
+<h2 class="text-4xl font-extrabold text-center text-primary mb-12">Internship Highlights (Featured Projects)</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="http://static.photos/construction/640x360/3" alt="Construction Site" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-700">High Court Construction Site Internship</h3>
+                                <p class="text-primary">Structural & Site Practice</p>
+                            </div>
+                            <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs font-semibold">Jan 2025 - Feb 2025</span>
+                        </div>
+                        <p class="mt-3 text-gray-600">Gained hands-on knowledge of structural elements, assisting with <strong class="text-primary">Raft Foundation</strong> reinforcement details and observing crucial <strong class="text-primary">quality control checks</strong>.</p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium group-hover:bg-primary group-hover:text-white transition-colors duration-300">Structural</span>
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium group-hover:bg-primary group-hover:text-white transition-colors duration-300">Foundation</span>
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium group-hover:bg-primary group-hover:text-white transition-colors duration-300">Quality Control</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group">
+                    <div class="relative overflow-hidden h-48">
+                        <img src="http://static.photos/construction/640x360/4" alt="Water Treatment" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <h3 class="text-xl font-bold text-gray-700">Water Treatment Process Internship</h3>
+                                <p class="text-primary">Environmental & Hydraulic Systems</p>
+                            </div>
+                            <span class="bg-blue-100 text-primary px-2 py-1 rounded-full text-xs font-semibold">Jan 2024 - Feb 2024</span>
+                        </div>
+                        <p class="mt-3 text-gray-600">Gained knowledge in water treatment, studying Flocculation and Backwashing, and participating in the inspection and construction of a <strong class="text-primary">water reservoir</strong>.</p>
+                        <div class="mt-4 flex flex-wrap gap-2">
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium group-hover:bg-primary group-hover:text-white transition-colors duration-300">Water Treatment</span>
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium group-hover:bg-primary group-hover:text-white transition-colors duration-300">Reservoir</span>
+                            <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium group-hover:bg-primary group-hover:text-white transition-colors duration-300">Environmental</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#experience" class="inline-flex items-center text-primary hover:text-accent font-semibold transition-all duration-300 transform hover:-translate-y-1">
+                    View Full Internship Details
+                    <i data-feather="arrow-right" class="ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact Section with enhanced form -->
+        <section id="contact" class="py-20 bg-gradient-to-br from-primary to-accent text-white rounded-2xl shadow-2xl">
+            <div class="container mx-auto px-4">
+                <h2 class="text-4xl font-extrabold text-center mb-12">Get In Touch</h2>
+                
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start transform transition duration-300 hover:scale-105">
+                                <div class="bg-white/20 p-3 rounded-lg mr-4 flex-shrink-0 transform transition duration-500 hover:rotate-12">
+                                    <i data-feather="mail" class="text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Email</h4>
+                                    <p>qazimahran22@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start transform transition duration-300 hover:scale-105">
+                                <div class="bg-white/20 p-3 rounded-lg mr-4 flex-shrink-0 transform transition duration-500 hover:rotate-12">
+                                    <i data-feather="phone" class="text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Phone</h4>
+                                    <p>+918082825609</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start transform transition duration-300 hover:scale-105">
+                                <div class="bg-white/20 p-3 rounded-lg mr-4 flex-shrink-0 transform transition duration-500 hover:rotate-12">
+                                    <i data-feather="map-pin" class="text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Location</h4>
+                                    <p>#Sadrabal, Hazratbal,<br>Srinagar, J&K, 190006.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start transform transition duration-300 hover:scale-105">
+                                <div class="bg-white/20 p-3 rounded-lg mr-4 flex-shrink-0 transform transition duration-500 hover:rotate-12">
+                                    <i data-feather="clock" class="text-white"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold">Availability</h4>
+                                    <p>Available for part-time, internship, and project opportunities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-6">Send Me a Message</h3>
+                        <form class="space-y-4">
+                            <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg border border-white/30 bg-white/10 focus:ring-2 focus:ring-white/50 text-white placeholder-white/70 transition duration-300 hover:bg-white/20 focus:bg-white/20" required>
+                            <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border border-white/30 bg-white/10 focus:ring-2 focus:ring-white/50 text-white placeholder-white/70 transition duration-300 hover:bg-white/20 focus:bg-white/20" required>
+                            <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg border border-white/30 bg-white/10 focus:ring-2 focus:ring-white/50 text-white placeholder-white/70 transition duration-300 hover:bg-white/20 focus:bg-white/20" required></textarea>
+                            <button type="submit" class="w-full bg-white text-primary font-bold py-3 rounded-lg hover:bg-gray-100 hover:text-accent transition duration-300 shadow-lg transform hover:-translate-y-1">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <custom-footer></custom-footer>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
